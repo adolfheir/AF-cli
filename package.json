@@ -1,0 +1,41 @@
+{
+  "name": "af-cli",
+  "version": "1.0.0",
+  "description": "a cli for use af-react",
+  "main": "index.js",
+  "repository": "https://github.com/adolfheir/AF-cli.git",
+  "author": "adolfheir <1428899467@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development ./node_modules/.bin/webpack-dev-server --config config/webpack.config.js",
+    "build": "cross-env NODE_ENV=production ./node_modules/.bin/webpack --config config/webpack.config.js"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "copy-webpack-plugin": "^5.0.4",
+    "cross-env": "^5.2.1",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "terser-webpack-plugin": "^1.4.1",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.7",
+    "webpack-dev-server": "^3.8.0"
+  },
+  "dependencies": {
+    "connected-react-router": "^6.5.2",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-loadable": "^5.5.0",
+    "react-redux": "^6.0.0",
+    "react-router": "^5.0.1",
+    "react-router-dom": "^5.0.1",
+    "redux": "^4.0.0-0"
+  }
+}

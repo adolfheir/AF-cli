@@ -1,0 +1,1 @@
+it for static file like img
