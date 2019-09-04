@@ -29,6 +29,11 @@
     "webpack-dev-server": "^3.8.0"
   },
   "dependencies": {
+    "af-core": "^0.1.0",
+    "af-redux": "^0.1.0",
+    "af-render": "^0.1.0",
+    "af-router": "^0.1.0",
+    "af-saga": "^0.1.0",
     "connected-react-router": "^6.5.2",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
